@@ -1,4 +1,1 @@
-# Crana Doc
-
-> Documentation website of Crana.js
-
+# Crana's Doc

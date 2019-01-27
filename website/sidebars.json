@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Installation": ["doc1"],
+    "Getting Started": ["doc2"],
+    "Usage": ["doc2"],
+    "Dependencies": ["doc3"]
+  },
+  "docs-other": {
+    "API": ["doc4", "doc5"]
+  }
+}
