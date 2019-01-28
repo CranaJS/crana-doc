@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Powerful cli tool for full stack apps",
+    "tagline": "A CLI tool for creating React + Node apps with just one command (batteries included)",
     "docs": {
       "doc1": {
         "title": "Latin-ish",

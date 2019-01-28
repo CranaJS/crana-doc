@@ -24,6 +24,6 @@
 <path id="shadow-left" opacity="0.3" fill="#7BC799" d="M167.639,199.125c3.166,0.046-9.861,22.225-10.182,44.444
 	c-0.321,22.219,24.986,42.653,21.821,42.607s-29.901-20.09-29.58-42.309C150.018,221.647,164.474,199.079,167.639,199.125z"/>
 <ellipse id="shadow-right" opacity="0.3" fill="#7BC799" cx="321.795" cy="117.458" rx="5.132" ry="3.852"/>
-<text transform="matrix(0.8394 0.0117 -0.014 0.9999 228.4995 243.9863)" fill="#FFFFFF" font-family="'Consolas'" font-size="72.1168">rana</text>
-<text transform="matrix(-0.8395 0.0055 -0.0065 -1 230.5879 206.8398)" fill="#7BC798" font-family="'Consolas'" font-size="72.1168">c</text>
+<text transform="matrix(0.8395 0.0038 -0.0045 1 228.6694 244.6162)" fill="#FFFFFF" font-family="'Consolas'" font-size="72.1168">rana</text>
+<text transform="matrix(0.8395 0.0044 -0.0053 1 196.2969 245.0762)" fill="#7BC798" font-family="'Consolas'" font-size="72.1168">c</text>
 </svg>

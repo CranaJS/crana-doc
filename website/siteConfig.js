@@ -23,7 +23,7 @@
 
 const siteConfig = {
   title: 'Crana.js', // Title for your website.
-  tagline: 'Powerful cli tool for full stack apps',
+  tagline: 'A CLI tool for creating React + Node apps with just one command (batteries included)',
   url: 'http://localhost:3000', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -49,9 +49,9 @@ const siteConfig = {
   //users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo-sm.png',
-  footerIcon: 'img/logo-sm.png',
-  favicon: 'img/logo-sm.png',
+  headerIcon: '',
+  footerIcon: 'img/crana-short.svg',
+  favicon: 'img/crana-short.svg',
 
   /* Colors for website */
   colors: {

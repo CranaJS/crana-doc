@@ -1,0 +1,85 @@
+[
+    {
+      "input": "crana init my-app",
+      "output": [
+        "<span style=\"color:#33BBC8\">?</span> Which extensions do you want to install?",
+        "()React",
+        "()Typescript",
+        "()Svelte",
+        "Creating project <span style=\"color:#33BBC8\">my-app</span> in <span style=\"color:#33BBC8\">C:/projects/my-app</span>...",
+        {
+          "content": "| Installing...",
+          "replace": true
+        },
+        {
+          "content": "/ Installing...",
+          "replace": true
+        },
+        {
+          "content": "- Installing...",
+          "replace": true
+        },
+        {
+          "content": "\\ Installing...",
+          "replace": true
+        },
+        {
+          "content": "| Installing...",
+          "replace": true
+        },
+        {
+          "content": "/ Installing...",
+          "replace": true
+        },
+        {
+          "content": "- Installing...",
+          "replace": true
+        },
+        {
+          "content": "| Installing...",
+          "replace": true
+        },
+        {
+          "content": "/ Installing...",
+          "replace": true
+        },
+        {
+          "content": "- Installing...",
+          "replace": true
+        },
+        {
+          "content": "\\ Installing...",
+          "replace": true
+        },
+        {
+          "content": "| Installing...",
+          "replace": true
+        },
+        {
+          "content": "/ Installing...",
+          "replace": true
+        },
+        {
+          "content": "- Installing...",
+          "replace": true
+        },
+        "<span style=\"color:#25BC24\">Project was successfully created.</span>",
+        "<span style=\"color:#33BBC8\">To get started, execute:</span>",
+        "cd my-app",
+        "crana dev<br/><br/>"
+      ]
+    },
+    {
+      "input": "cd my-app"
+    },
+    {
+      "input": {
+        "prompt": "my-app$",
+        "content": "crana dev"
+      },
+      "output": [
+        "<br/>npx: installed 1 in 9.362s",
+        "Server started. Hello World by server!"
+      ]
+    }
+  ]

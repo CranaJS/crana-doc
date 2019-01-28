@@ -9,6 +9,8 @@ const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
+// Import termynal
+
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
@@ -26,12 +28,6 @@ class HomeSplash extends React.Component {
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">{props.children}</div>
         </div>
-      </div>
-    );
-
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
       </div>
     );
 
@@ -60,14 +56,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/docusaurus.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('doc1.html')}>Docs</Button>
           </PromoSection>
+          
         </div>
       </SplashContainer>
     );
@@ -93,7 +88,7 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
-      <div
+      <div 
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
         <h2>Feature Callout</h2>
@@ -101,39 +96,12 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content: 'Talk about trying this out',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'left',
-            title: 'Try it Out',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
     const LearnHow = () => (
       <Block background="light">
         {[
           {
             content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/term.svg`,
             imageAlign: 'right',
             title: 'Learn How',
           },
@@ -146,16 +114,22 @@ class Index extends React.Component {
         {[
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/crana-long.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'React',
           },
           {
             content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            image: `${baseUrl}img/crana-long.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Typescript',
           },
+          {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/crana-long.svg`,
+            imageAlign: 'top',
+            title: 'Svelte',
+          }
         ]}
       </Block>
     );
@@ -193,11 +167,9 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
           <LearnHow />
-          <TryOut />
-          <Description />
+          <FeatureCallout />
+          <Features />
           <Showcase />
         </div>
       </div>
